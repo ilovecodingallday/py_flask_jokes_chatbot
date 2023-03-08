@@ -1,0 +1,191 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting as me a Joke",
+        "Hi there, do you want to hear a Joke",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["Name", "What's your name?", "Goodbye"],
+      "responses": [
+        "Cortana",
+        "My name is Cortana",
+        "I'm Cortana"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": ["What's your age?", "How old are you?", "age"],
+      "responses": [
+        "I'm a bot not a human",
+        "Why do you care?",
+        "Don't have an age"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "joke",
+        "Tell me a joke!",
+        "Tell me a joke!",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Tell me another joke?",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+         "My email password has been hacked. That's the third time I've had to rename the cat.",
+        "What does a baby computer call it's father? Data.",
+        "My New Year's resolution is 4K.",
+        "Any room is a panic room if you've lost your phone in it.",
+        "Why was the JavaScript developer sad? Because he didn't Node how to Express himself.",
+        "Why did the developer go broke? Because he used up all his cache.",
+        "What did the Buddhist ask the hot dog vendor? Make me one with everything.",
+        "You know why you never see elephants hiding up in trees? Because they’re really good at it. ",
+        "What is red and smells like blue paint? Red paint.",
+        "What do you call a parade of rabbits hopping backwards? A receding hare-line. ",
+        "Where does the General keep his armies? In his sleevies!",
+        "Why aren’t koalas actual bears? The don’t meet the koalafications.",
+        "A bear walks into a restaurant and says, “I want a grilled… cheese.” The waiter says “Why the big pause? The bear replies, “I don’t know. I was born with them.",
+        "What do you call bears with no ears? B.",
+        "Why did the tomato blush? Because it saw the salad dressing.",
+        "I went in to a pet shop. I said, “Can I buy a goldfish?” The guy said, “Do you want an aquarium?. I said, “I don’t care what star sign it is.",
+        "How do you make a tissue dance? You put a little boogie in it.",
+        "A pirate walks into a bar with a steering wheel on his pants, a peg leg and a parrot on his shoulder. The bartender says, “Hey, you’ve got a steering wheel on your pants. The pirate says, “Arrrr, I know. It’s driving me nuts.",
+        "What do you call a train carrying bubblegum? A chew-chew train.",
+        "What’s brown and sticky? A stick.",
+        "What does a pepper do when it’s angry? It gets jalapeño face!",
+        "What’s a foot long and slippery? A slipper.",
+        "Two gold fish are in a tank. One looks at the other and says, “You know how to drive this thing?!",
+        "Why doesn’t the sun go to college? Because it has a million degrees!",
+        "As a scarecrow, people say I’m outstanding in my field. But hay, it’s in my jeans.",
+        "A man is walking in the desert with his horse and his dog when the dog says, “I can’t do this. I need water.” The man says, “I didn’t know dogs could talk. The horse says, “Me neither!”",
+        "What is the resemblance between a green apple and a red apple? They’re both red except for the green one.",
+        "I poured root beer in a square glass. Now I just have beer.",
+        "How did the hipster burn his mouth? He ate the pizza before it was cool.",
+        "What’s the difference between an oral thermometer and a rectal thermometer? The taste.",
+        "An atheist, a Crossfitter, and a vegan walk into a bar. I know because they told me.",
+        "I waited and stayed up all night and tried to figure out where the sun was. Then it dawned on me.",
+        "I told my friend 10 jokes to get him to laugh.. Sadly, no pun in 10 did.",
+        "What’s red and moves up and down? A tomato in an elevator",
+        "Why can’t you hear a pterodactyl go to the bathroom? Because the “P” is silent!",
+        "Can February march? No, but April may.",
+        "How did the blonde die ice fishing? She was hit by the zamboni.",
+        "What did one traffic light say to the other? Stop looking at me, I’m changing!",
+        "How do you throw a space party? You planet.",
+        "What’s a pirates favorite letter? You think it’s R but it be the C.",
+        "Have you heard about corduroy pillows? They’re making headlines.",
+        "What did the green grape say to the purple grape? OMG!!!!!!! BREATHE!! BREATHEEEEE!!!!!",
+        "Never criticize someone until you have walked a mile in their shoes. That way, when you criticize them, you’ll be a mile away, and you’ll have their shoes.",
+        "What do Alexander the Great and Winnie the Pooh have in common? Same middle name.",
+        "Why did the chicken cross the playground? To get to the other slide.",
+        "What did the left eye say to the right eye? Between you and me, something smells.",
+        "Why did the nurse need a red pen at work? In case she needed to draw blood.",
+        "Why did the cowboy get a wiener dog? He wanted to get a long little doggie.",
+        "What do you call a rooster staring at a pile of lettuce? A chicken sees a salad.",
+        "Sometimes I tuck my knees into my chest and lean forward. That’s just how I roll.",
+        "Hear about the new restaurant called Karma? There’s no menu: You get what you deserve",
+        "Why don’t Calculus majors throw house parties? Because you should never drink and derive.",
+        "What is a little bear with no teeth is called? A gummy bear.",
+        "Why did the teddy bear skip out on dessert when she was on a date? She was stuffed.",
+        "Why does Humpty Dumpty love autumn? Because Humpty Dumpty had a great fall.",
+        "Why are ghosts such bad liars? Because they are easy to see through.",
+        "Why do bees have sticky hair? Because they use honeycombs.",
+        "What do you call a pony with a cough? A little horse.",
+        "Yesterday I saw a guy spill all his Scrabble letters on the road. I asked him, “What’s the word on the street?”",
+        "Why don’t scientists trust atoms? Because they make up everything.",
+        "What do you get from a pampered cow? Spoiled milk.",
+        "Where are average things manufactured? The satisfactory.",
+        "Why couldn’t the leopard play hide and seek? Because he was always spotted.",
+        "What do you call a fake noodle? An impasta.",
+        "Once my dog ate all the Scrabble tiles. For days he kept leaving little messages around the house.",
+        "What did the bald man exclaim when he received a comb for a present? Thanks— I’ll never part with it!",
+        "Military was standing outside my house, guess what I did? I-ran.",
+        "I won a rain dance competition, guess what I got? Pneumonia.",
+        "One really famous tortoise lives next door, guess what it's called? A shellebrity.",
+        "The frog parked his car in the swamp, guess what? It got toad.",
+        "I was trying to solve a few equations on circles. Guess what? It was pointless.",
+        "Instagram is just Twitter for people who go outside.",
+        "Human: What do we want?! Computer: Natural language processing! Human: When do we want it?! Computer: When do we want what?",
+        "Is your name Wi-Fi? Because I'm feeling a connection."
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
